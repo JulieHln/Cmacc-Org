@@ -2,15 +2,19 @@
 
 =[U/at/US/CA/San_Mateo/Menlo_Park/Geo]
 
-<b>Quake Info</b>
+Register.=[U/at/US/DE/New_Castle/Wilmington/Geo]
+
+Register.EntityType.a=a {entity}
+
+Register.RegistrationNumber=34567876543
 
 Name.Full=Quake Inc.
 
-Addr.Type=principal
+Adr.Type=principal
 
-Addr.1=233 Curtis Street
+Adr.1=233 Curtis Street
 
-Addr.Zip=94025
+Adr.Zip=94025
 
 Phone=650.555.5500
 
@@ -18,7 +22,7 @@ Fax=650.555.5511
 
 entity=Delaware corporation
 
-Addr.Type=business
+Adr.Type=business
 
 BusinessDomain=information services consulting
 
@@ -33,8 +37,12 @@ Notice.Name,Title={President.Name.Full}, {President.Title}
 
 SignBy=By: <u>{xSignature}</u><br/>Name: {President.Name.Full}<br/>Its: {President.Title}
 
-Sign.Name.Full={President.ID.Name.Full}
+Sign.Name.Full={President.Name.Full}
 
 Sign.Title={President.Title}
+
+Signer.Name.Full={President.Name.Full}
+
+Signer.Title={President.Title}
 
 Email=Kendall@quake.com
